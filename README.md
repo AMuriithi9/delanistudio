@@ -1,2 +1,0 @@
-# delanistudio
-project 3
