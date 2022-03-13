@@ -1,6 +1,6 @@
-.head_image {
-  border: 2pxsolid black;
-  border-radius: 4px;
-  padding: 10px;
-  width: 150px;
+.headimage {
+  max-width: 100%;
+}
+.header {
+  color: blue;
 }
