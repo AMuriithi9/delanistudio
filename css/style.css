@@ -64,3 +64,12 @@ text-align: center;
 .container8 h6{
   opacity: 1;
 }
+#design-p{
+  display: none;
+}
+#development-p{
+  display: none;
+}
+#product-p{
+  display: none;
+}

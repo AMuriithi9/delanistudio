@@ -4,7 +4,10 @@ const myMessage = document.getElementById("enterYourMessage");
 const myForm = document.getElementById("form");
 const myButton = document.getElementById("submit");
 
-myButton.addEventListener("click", checkInputs)
+myButton.addEventListener("click", (e)=>{
+  e.preventDefault()
+  checkInputs()
+})
   
  function checkInputs(){
   const nm = myName.value
@@ -14,11 +17,23 @@ myButton.addEventListener("click", checkInputs)
  }
  
 
-//  //Moses Kamotho12:28 PM
-//   $(document).ready(function(){
-//     $("#work1").mouseover(function(){
-//       $("#overlay1").show();
-//     }).mouseout(function(){
-//       $("#overlay1").hide();
-//     });
-//   });
+ $(document).ready(function(){
+   $(".design").click(function(){
+     $("#design-i").toggle()
+     $("#design-p").toggle()
+   })
+ })
+
+ $(document).ready(function(){
+   $(".development").click(function(){
+     $("#development-i").toggle()
+     $("#development-p").toggle()
+   })
+ })
+
+ $(document).ready(function(){
+   $(".product").click(function(){
+     $("#product-i").toggle()
+     $("#product-p").toggle()
+   })
+ })
