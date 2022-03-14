@@ -14,4 +14,11 @@ myButton.addEventListener("click", checkInputs)
  }
  
 
- 
+//  //Moses Kamotho12:28 PM
+//   $(document).ready(function(){
+//     $("#work1").mouseover(function(){
+//       $("#overlay1").show();
+//     }).mouseout(function(){
+//       $("#overlay1").hide();
+//     });
+//   });
